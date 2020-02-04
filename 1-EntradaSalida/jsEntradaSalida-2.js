@@ -2,6 +2,10 @@
 y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-	
+    var nombre;
+    nombre = prompt("Ingrese su nombre");
+    alert(nombre);
+
+    // alert(prompt("Ingrese su nombre")); ---> Otra forma de resolverlo en una sola lìnea
 }
 
