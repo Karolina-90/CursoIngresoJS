@@ -11,7 +11,7 @@ function mostrar()
 
 		numero = parseInt(prompt("Ingrese un número: "));
 
-		if (numero < minimo) { //DUDA: La primera vez, podría ingresar un número mayor a menor que a su vez es menor a mayor
+		if (numero < minimo) { 
 			minimo = numero; 
 		} 
 		if (numero > maximo) {

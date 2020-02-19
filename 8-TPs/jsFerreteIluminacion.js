@@ -71,7 +71,7 @@ function CalcularPrecio ()
 
         document.getElementById("precioDescuento").value = precioTotal;
 
-    } else {  //VER
+    } else if () {  //VER
         descuento = 20;
         precio = lamparita * 35; 
         precioDescuento = precio * descuento / 100;
